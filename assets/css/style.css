@@ -1,0 +1,116 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 8px;
+}
+.menu{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.search img{
+    width: 1.25em;
+    vertical-align: middle;
+}
+search i{
+    border: 1px solid #f4f4f4;
+    background: #f4f4f4;
+    padding: 5px;
+}
+input{
+    background: #f4f4f4;
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+.icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 3px;
+}
+.container{
+    display: flex;
+}
+main{
+    width: 952px;
+    padding-right: 16px;
+}
+.watching img{
+    object-fit: cover;
+}
+.watching p{
+    font-size: 20px;
+    text-align: left;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.channel{
+    display: flex;
+}
+.info-channel{
+    display: block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.info-channel span{
+    text-transform: uppercase;
+}
+.info-channel p{
+    margin: auto;
+}
+.inscrible button{
+    background: #cc0000;
+    width: 159px;
+    height: 40px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+.like span , deslike span, .share span, .download span, .info p{
+    font-size: 14px;
+}
+.like i, .deslike i, .share i, .download i{
+    vertical-align: middle;
+}
+.info p:first-child{
+    font-weight: bolder;
+}
+aside{
+    display: flex;  
+    flex-direction: column;
+}
+section{
+    display: flex;
+    padding-bottom: 16px;
+}
+.video{
+    height: 90px;
+    width: 160px;
+}
+.infos{
+    width: 196px;
+    height: 89px;
+    padding-left: 8px;
+    top: 0;
+    
+}
+.infos p{
+    font-size:14px ;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 8px;
+}
+.infos span{
+   display: block;
+    font-size: 12px;
+    padding-bottom: 3px;
+    color: #515151;
+}
